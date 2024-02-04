@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #020A18;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 22px;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #060c1a;
+}
+header .header_menu_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+header .header_menu_container a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.content {
+    width: 1146px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+.content .rocket {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+}
+
+/*Rocket*/
+.content .rocket .first_content_text h4{
+    color: #3A68B8;
+    text-transform: uppercase;
+}
+.content .rocket .first_content_text h1{
+    padding-top: 20px;
+    font-size: 55px;
+    font-weight: 800;
+}
+.content .rocket .first_content_text p{
+    padding-top: 30px;
+    color: grey;
+}
+.content .rocket .first_content_img img{
+    height: 415px;
+    width: 414px;
+}
+.content .rocket .first_content_text button{
+    padding: 15px 28px;
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: #3A68B8;
+}
+.content .rocket .first_content_text button span{
+    font-size: 20px;
+    color: white;
+}
+.content .rocket .first_content_text button img{
+    width: 15px;
+    height: 15px;
+}
+
+/*Logo*/
+.content .logo {
+    width: 100%;
+    padding-top: 197px;
+    height: 300px;
+}
+
+/*Mobile*/
+.content .mobile {
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    height: 600px;
+}
+.content .mobile .second_content_img img{
+    height: 415px;
+    width: 414px;
+}
+.content .mobile .second_content_text h2{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.content .mobile .second_content_text p{
+    padding-top: 30px;
+    color: grey;
+}
+.content .mobile .second_content_text button{
+    padding: 15px 28px;
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: #3A68B8;
+}
+.content .mobile .second_content_text span{
+    font-size: 20px;
+    color: white;
+}
+
+/*Functions*/
+.content .func-logo {
+    width: 120%;    
+    display: flex;
+    flex-direction: row;    
+    height: 600px;
+
+}
+.content .func-logo .third_content_img img{
+    height: 362px;
+    width: 389px;
+}
+
+/*About*/
+.content .about {
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    height: 700px;
+}
+.content .about .fourth_content_img img{
+    height: 415px;
+    width: 414px;
+}
+.content .about .fourth_content_text h2{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.content .about .fourth_content_text p{
+    padding-top: 30px;
+    color: grey;
+}
+
+footer {
+    width: 100%;
+    height: 350px;
+    background-color: #060c1a;
+    justify-content: center;  
+}
+
+footer .foot { 
+    padding-top: 75px;   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    height: 150px;
+}
+.foot .info {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.foot .info h4 {
+    color: white;
+    gap: 15px;
+}
+.foot .info h5 {
+    color: white;
+    gap: 10px;
+}
+.foot .about_1 p {
+    padding-top: 30px;
+    color: rgb(55, 52, 52);
+}
+.foot .about_1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.foot .about_2 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.foot .about_2 img{
+    height: 5px;
+    width: 15px;
+}
